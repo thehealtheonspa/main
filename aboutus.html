@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spa</title>
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-dark.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Preloader area start -->
+    <div id="preloader">
+        <div class="animation-preloader">
+            <div class="spinner"></div>
+           <div class="txt-loading">
+                <span data-text-preloader="H" class="letters-loading">
+                    H
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="L" class="letters-loading">
+                    L
+                </span>
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="H" class="letters-loading">
+                    H
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+                <span data-text-preloader="O" class="letters-loading">
+                   O
+                </span>
+                <span data-text-preloader="N" class="letters-loading">
+                    N
+                </span>
+            </div>
+            <p class="text-center">Loading...</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader area end -->
+
+     <!-- Top header area start here -->
+    <div class="header-top-area d-none d-lg-block">
+        <div class="container">
+            <div class="header-top__wrp">
+
+                <div class="header-top__links">
+                </div>
+
+            
+            </div>
+        </div>
+    </div>
+    <!-- Top header area end here -->
+
+    <!-- Header area start here -->
+    <header class="header-area header-two-area">
+        <div class="container">
+            <div class="header-two__wrp">
+                <div class="header__main">
+                    <a href="index.html" class="logo">
+                        <img  src="images/logo/logo1.png" alt="logo">
+                        <!--<h3 style="color: #fff;">HEALTHEON</h3>-->
+                    </a>
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                            <li>
+                                <a href="index.html">Home </i></a>
+                                
+                            </li>
+
+                                <li><a class="active" href="aboutus.html">About Us</a></li>
+
+                                     <li>                  
+                                    <a href="#0">Services <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="massage.html" >Massage Services </a></li>
+                                         <li><a href="salon-packages.html" >Salon Services </a></li>
+                                        <li><a href="bridal-makeup.html" >Bridal Makeup</a></li>
+                                       
+                                        
+                                    </ul>
+                                </li>
+
+                                
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="menu-btns">                        
+                        <a href="" class="book-now d-none d-xl-inline-block">Book Now
+                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_441)">
+                                    <path
+                                        d="M11.5975 12.4898C11.6058 12.4882 11.614 12.4859 11.6222 12.4838C11.6298 12.4819 11.6374 12.4802 11.6449 12.478C11.653 12.4755 11.6608 12.4725 11.6686 12.4697C11.6761 12.467 11.6837 12.4645 11.6911 12.4615C11.6984 12.4584 11.7055 12.4548 11.7127 12.4514C11.7203 12.4478 11.728 12.4445 11.7354 12.4405C11.7423 12.4368 11.7488 12.4326 11.7555 12.4286C11.7628 12.4242 11.7702 12.4201 11.7773 12.4153C11.7847 12.4104 11.7917 12.4049 11.7987 12.3996C11.8047 12.3951 11.8108 12.391 11.8166 12.3862C11.8292 12.3759 11.8413 12.3651 11.8527 12.3536C11.8529 12.3534 11.8531 12.3533 11.8533 12.3531C11.8534 12.3529 11.8536 12.3527 11.8538 12.3526C11.8652 12.3411 11.8761 12.329 11.8864 12.3165C11.8912 12.3107 11.8953 12.3045 11.8998 12.2986C11.9051 12.2915 11.9106 12.2845 11.9155 12.2772C11.9203 12.27 11.9244 12.2626 11.9288 12.2553C11.9328 12.2486 11.937 12.2421 11.9406 12.2352C11.9446 12.2278 11.948 12.2201 11.9516 12.2125C11.955 12.2053 11.9586 12.1983 11.9616 12.1909C11.9647 12.1835 11.9672 12.176 11.9698 12.1685C11.9727 12.1606 11.9757 12.1528 11.9781 12.1447C11.9804 12.1372 11.9821 12.1296 11.984 12.122C11.9861 12.1138 11.9883 12.1057 11.99 12.0973C11.9917 12.0885 11.9928 12.0796 11.9941 12.0708C11.9951 12.0635 11.9965 12.0563 11.9972 12.0489C11.9988 12.0325 11.9997 12.016 11.9997 11.9995V5.49951C11.9997 5.22337 11.7759 4.99952 11.4997 4.99952C11.2236 4.99952 10.9997 5.22337 10.9997 5.49951V10.7924L0.853309 0.645955C0.658051 0.450697 0.341457 0.450697 0.146199 0.645955C-0.0490586 0.841213 -0.0490586 1.15781 0.146199 1.35306L10.2926 11.4995H4.99975C4.72361 11.4995 4.49976 11.7234 4.49976 11.9995C4.49976 12.2756 4.72361 12.4995 4.99975 12.4995H11.4997C11.5162 12.4995 11.5327 12.4987 11.5491 12.497C11.5565 12.4963 11.5636 12.4949 11.571 12.4939C11.5798 12.4926 11.5887 12.4916 11.5975 12.4898Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath>
+                                        <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#menubar">
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.55566 11H1.55566C1.29045 11 1.03609 11.1054 0.848557 11.2929C0.661021 11.4804 0.555664 11.7348 0.555664 12V19C0.555664 19.2652 0.661021 19.5196 0.848557 19.7071C1.03609 19.8946 1.29045 20 1.55566 20H8.55566C8.82088 20 9.07523 19.8946 9.26277 19.7071C9.45031 19.5196 9.55566 19.2652 9.55566 19V12C9.55566 11.7348 9.45031 11.4804 9.26277 11.2929C9.07523 11.1054 8.82088 11 8.55566 11ZM7.55566 18H2.55566V13H7.55566V18ZM19.5557 0H12.5557C12.2904 0 12.0361 0.105357 11.8486 0.292893C11.661 0.48043 11.5557 0.734784 11.5557 1V8C11.5557 8.26522 11.661 8.51957 11.8486 8.70711C12.0361 8.89464 12.2904 9 12.5557 9H19.5557C19.8209 9 20.0752 8.89464 20.2628 8.70711C20.4503 8.51957 20.5557 8.26522 20.5557 8V1C20.5557 0.734784 20.4503 0.48043 20.2628 0.292893C20.0752 0.105357 19.8209 0 19.5557 0ZM18.5557 7H13.5557V2H18.5557V7ZM19.5557 11H12.5557C12.2904 11 12.0361 11.1054 11.8486 11.2929C11.661 11.4804 11.5557 11.7348 11.5557 12V19C11.5557 19.2652 11.661 19.5196 11.8486 19.7071C12.0361 19.8946 12.2904 20 12.5557 20H19.5557C19.8209 20 20.0752 19.8946 20.2628 19.7071C20.4503 19.5196 20.5557 19.2652 20.5557 19V12C20.5557 11.7348 20.4503 11.4804 20.2628 11.2929C20.0752 11.1054 19.8209 11 19.5557 11ZM18.5557 18H13.5557V13H18.5557V18ZM8.55566 0H1.55566C1.29045 0 1.03609 0.105357 0.848557 0.292893C0.661021 0.48043 0.555664 0.734784 0.555664 1V8C0.555664 8.26522 0.661021 8.51957 0.848557 8.70711C1.03609 8.89464 1.29045 9 1.55566 9H8.55566C8.82088 9 9.07523 8.89464 9.26277 8.70711C9.45031 8.51957 9.55566 8.26522 9.55566 8V1C9.55566 0.734784 9.45031 0.48043 9.26277 0.292893C9.07523 0.105357 8.82088 0 8.55566 0ZM7.55566 7H2.55566V2H7.55566V7Z"
+                                    fill="#707070" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header area end here -->
+
+    <!-- Sidebar area start here -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo"> <img src="images/logo/logo1.png" alt="logo"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden"></div>
+            <div class="d-none d-lg-block">
+                <h5 class="text-white mb-20">About Us</h5>
+                <p class="sidebar__text">Unleash the full potential of your website and elevate its online presence with our comprehensive consultation solutions.</p>
+            </div>
+            
+           
+           
+        </div>
+    </div>
+    <!-- Sidebar area end here -->
+
+    <!-- Fullscreen search area start here -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fa-light fa-xmark search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Fullscreen search area end here -->
+
+     <!-- Start main-content -->
+    <section class="page-title" style="background-image: url(images/bg/contact-two-bg.jpg);">
+      <div class="auto-container">
+        <div class="title-outer">
+          <h3 class="title" style="margin-left: 15px;">About Us</h3>
+          
+        </div>
+      </div>
+    </section>
+
+  
+    <!-- About Section -->
+    <section class="about-section pt-40 pb-30">
+        <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <img src="images/shape/about-left-shape.png" alt="image">
+        </div>
+        <div class="shape2 wow slideInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
+            <img class="sway_Y__animation" src="images/shape/about-right-shape.png" alt="image">
+        </div>
+        <div class="container">
+            <div class="col-xl-12">
+                     <h2 style="font-size:45px;" class="title wow fadeInUp text-center" data-wow-delay="200ms" data-wow-duration="1500ms">A Sanctuary Where Serenity Begins</h2>
+                            <p class="text wow fadeInUp text-center mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">At The Healtheon Spa, we believe wellness is more than a treatment — it’s a way of life. Nestled in a peaceful haven away from the city's chaos, we created a space where your body finds rest, your mind finds peace, and your spirit finds renewal.</p>
+                        
+            </div>
+            <div class="row">
+                <div class="col-lg-7 content-column">
+                    <div class="inner-column">
+                        <div class="section-header">
+                           
+                        <h2 style="font-size: 35px;" class="title wow fadeInUp mt-3" data-wow-delay="200ms" data-wow-duration="1500ms">Our Story</h2>
+                            <p class=" wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Born from a passion for holistic healing and mindful living, The Healtheon Spa was established to offer more than just spa services — we offer an experience of transformation. Every detail, from the calming ambiance to our curated treatments, is designed to help you elevate your serenity journey, one visit at a time.</p>
+                         <h2 style="font-size: 35px;" class="title wow fadeInUp mt-3" data-wow-delay="200ms" data-wow-duration="1500ms">Our Philosophy</h2>
+                            <p class=" wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">We combine time-honored traditions with modern wellness techniques to create a harmonious balance of luxury and care. Whether you seek physical relaxation, emotional clarity, or a break from everyday stress, we are here to guide you through your personal path to well-being.</p>
+                        
+                        </div>
+                        
+                       
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-5 image-column">
+                    <div class="inner-column wow fadeInLeft" data-tilt data-tilt-max="3" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <div class="image-box">
+                            <img src="images/about/about-six-image2.jpg" alt="image">
+                        </div>
+                        <div class="info">
+                           
+                            <h4 class="title">Experiance<br> Therapist</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End About Section -->
+
+    <!-- Client Section
+    <div class="marqueeSwiper-area brand-area">
+        <div class="container">
+            <div dir="rtl" class="swiper marqueeSwiper__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image1.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image2.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image3.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image4.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image5.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image1.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image2.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image3.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image4.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand__item">
+                            <img src="images/brand/brand-image5.png" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    End Client Section -->
+
+    <!-- Video Section -->
+    <section class="video-section pt-0 pb-130">
+        <div class="shape">
+            <img class="animation__arryUpDown" src="images/shape/video-shape.png" alt="image">
+        </div>
+        <div class="container">
+             <div class="col-xl-12">
+                       <div class="section-header mb-10">
+                           
+                            <h2  style="font-size:45px;" class="title wow fadeInUp mt-3 text-center" data-wow-delay="200ms" data-wow-duration="1500ms">What Makes Us Unique?
+</h2>
+                            <p class="text wow fadeInUp text-center" data-wow-delay="400ms" data-wow-duration="1500ms">At The Healtheon Spa, every experience is tailored to your personal wellness journey.
+We blend ancient healing traditions with modern techniques for true mind-body harmony.
+Our tranquil ambiance, skilled therapists, and natural products ensure care beyond the surface.</p>
+                        </div>
+            </div>
+            <div class="row g-4">
+               
+                <div class="col-lg-7 video-column">
+                    <div class="inner-box">
+                     
+                       <section class="about-section-two  paralax__animation">
+          
+            
+            <div class="container">
+                <div class="row g-4">
+                    
+                    <div class="content-column">
+                        <div class="inner-column">
+                           
+                            <div class="inner-box mb-10 wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div class="icon-box">
+                                    <svg class="icon-bg" width="137" height="118" viewBox="0 0 137 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M43.6444 2.60063C22.7813 9.6651 -0.117307 42.8526 0.939551 64.5894C2.15298 89.7033 38.047 118.116 67.2476 117.03C111.362 115.36 147.451 75.9625 132.812 45.4144C125.101 29.3447 86.7407 3.10523 70.927 3.10523C69.8701 3.10523 66.9344 2.56181 64.4684 1.94076C57.8141 0.232864 49.9464 0.465759 43.6444 2.60063Z" fill="#E7A391" />
+                                    </svg>
+                                  <i class="fa-light fa-leaf" style="margin-top: 31px;position: absolute;margin-left: -100px;font-size: 52px;"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">Holistic Approach</h4>
+                                    <p>Our services go beyond the surface — we treat the whole self, using techniques that heal, relax, and restore.</p>
+                                </div>
+                            </div>
+                            <div class="inner-box wow fadeInDown mb-10" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="icon-box">
+                                    <svg class="icon-bg" width="137" height="118" viewBox="0 0 137 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M43.6444 2.60063C22.7813 9.6651 -0.117307 42.8526 0.939551 64.5894C2.15298 89.7033 38.047 118.116 67.2476 117.03C111.362 115.36 147.451 75.9625 132.812 45.4144C125.101 29.3447 86.7407 3.10523 70.927 3.10523C69.8701 3.10523 66.9344 2.56181 64.4684 1.94076C57.8141 0.232864 49.9464 0.465759 43.6444 2.60063Z" fill="" />
+                                    </svg>
+                                   <i class="fa-light fa-hospital-user" style="margin-top: 31px;position: absolute;margin-left: -100px;font-size: 52px;"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">Personalized Care</h4>
+                                    <p>Every guest is unique. Our trained therapists take time to understand your needs and tailor each session for a truly customized experience.</p>
+                                </div>
+                            </div>
+                            <div class="inner-box wow fadeInDown mb-10" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="icon-box">
+                                    <svg class="icon-bg" width="137" height="118" viewBox="0 0 137 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M43.6444 2.60063C22.7813 9.6651 -0.117307 42.8526 0.939551 64.5894C2.15298 89.7033 38.047 118.116 67.2476 117.03C111.362 115.36 147.451 75.9625 132.812 45.4144C125.101 29.3447 86.7407 3.10523 70.927 3.10523C69.8701 3.10523 66.9344 2.56181 64.4684 1.94076C57.8141 0.232864 49.9464 0.465759 43.6444 2.60063Z" fill="" />
+                                    </svg>
+                                    <i class="fa-light fa-earth-asia"  style="margin-top: 31px;position: absolute;margin-left: -100px;font-size: 52px;"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">Peaceful Environment</h4>
+                                    <p> Our spa is designed to be your sanctuary — with soft lighting, tranquil music, and aromas that calm the senses the moment you arrive.</p>
+                                </div>
+                            </div>
+                            <div class="inner-box wow fadeInDown mb-10" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="icon-box">
+                                    <svg class="icon-bg" width="137" height="118" viewBox="0 0 137 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M43.6444 2.60063C22.7813 9.6651 -0.117307 42.8526 0.939551 64.5894C2.15298 89.7033 38.047 118.116 67.2476 117.03C111.362 115.36 147.451 75.9625 132.812 45.4144C125.101 29.3447 86.7407 3.10523 70.927 3.10523C69.8701 3.10523 66.9344 2.56181 64.4684 1.94076C57.8141 0.232864 49.9464 0.465759 43.6444 2.60063Z" fill="" />
+                                    </svg>
+                                   <i class="fa-light fa-feather-pointed" style="margin-top: 31px;position: absolute;margin-left: -100px;font-size: 52px;"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">Premium Natural Products</h4>
+                                    <p>We use only the finest, ethically sourced ingredients that are kind to your skin and aligned with nature.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+                      
+                       <!--<div class="list mt-40">
+                            <ul class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <li class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M45.5425 31.5542H51.1143V29.7947H47.302V28.0352H51.1143V26.2757H47.302V24.5161H51.1143V22.7566H45.5425V31.5542Z"
+                                            fill="#E7A391" />
+                                        <path
+                                            d="M20.088 28.9149C20.088 27.4596 18.904 26.2757 17.4487 26.2757H16.2756C15.7905 26.2757 15.3959 25.881 15.3959 25.3959C15.3959 24.9107 15.7905 24.5161 16.2756 24.5161H19.6774V22.7566H16.2756C14.8203 22.7566 13.6364 23.9405 13.6364 25.3959C13.6364 26.8513 14.8203 28.0352 16.2756 28.0352H17.4487C17.9338 28.0352 18.3284 28.4298 18.3284 28.9149C18.3284 29.4001 17.9338 29.7947 17.4487 29.7947H14.0469V31.5542H17.4487C18.904 31.5542 20.088 30.3703 20.088 28.9149Z"
+                                            fill="#E7A391" />
+                                        <path
+                                            d="M40.5571 24.5161C41.3657 24.5161 42.0234 25.1738 42.0234 25.9824H43.7829C43.7829 24.2036 42.3358 22.7566 40.5571 22.7566C38.7785 22.7566 37.3313 24.2036 37.3313 25.9824V28.3284C37.3313 30.1072 38.7785 31.5542 40.5571 31.5542C42.3358 31.5542 43.7829 30.1072 43.7829 28.3284H42.0234C42.0234 29.137 41.3657 29.7947 40.5571 29.7947C39.7485 29.7947 39.0908 29.137 39.0908 28.3284V25.9824C39.0908 25.1738 39.7485 24.5161 40.5571 24.5161Z"
+                                            fill="#E7A391" />
+                                        <path
+                                            d="M21.7888 29.7947V31.5542H27.1847V29.7947H25.3665V24.5161H27.1847V22.7566H21.7888V24.5161H23.607V29.7947H21.7888Z"
+                                            fill="#E7A391" />
+                                        <path
+                                            d="M34.0906 31.5542H35.5719V22.6979H33.8123V27.8264L30.6015 22.7566H29.1202V31.6129H30.8798V26.4844L34.0906 31.5542Z"
+                                            fill="#E7A391" />
+                                        <path d="M1.78882 23.6364H3.54835V60H1.78882V23.6364Z" fill="#E7A391" />
+                                        <path
+                                            d="M59.0909 11.6129C54.7972 11.6129 52.7099 11.0575 50.4999 10.4695C48.712 9.9938 46.8634 9.50183 43.8481 9.33069L43.7484 11.0874C46.5844 11.2485 48.2665 11.696 50.0474 12.1699C52.1206 12.7214 54.26 13.2906 58.2112 13.3645V33.3151H59.9707V11.6129H59.0909Z"
+                                            fill="#E7A391" />
+                                        <path
+                                            d="M58.2111 46.7953C54.5009 46.7247 52.5533 46.2064 50.4998 45.66C48.2776 45.0688 45.9799 44.4575 41.4562 44.4575C39.1595 44.4575 37.2569 44.611 35.4683 44.9406L35.7872 46.6711C37.4679 46.3613 39.2693 46.217 41.4562 46.217C45.7499 46.217 47.8373 46.7724 50.0473 47.3604C52.2694 47.9517 54.5673 48.563 59.0909 48.563H59.9707V35.0746H58.2111V46.7953Z"
+                                            fill="#E7A391" />
+                                        <path
+                                            d="M32.4126 45.6601C30.2026 46.2481 28.1152 46.8035 23.8214 46.8035C19.5281 46.8035 17.4407 46.2481 15.2308 45.6601C13.1577 45.1085 11.0182 44.5396 7.06742 44.4657V11.0348C10.7766 11.1056 12.7251 11.6235 14.7784 12.1699C17.0004 12.7611 19.298 13.3724 23.8216 13.3724C28.3452 13.3724 30.643 12.7611 32.8651 12.1699C35.075 11.5818 37.1626 11.0264 41.4562 11.0264C41.6524 11.0264 41.8441 11.0276 42.0315 11.0299L42.0531 9.2705C41.8587 9.26803 41.6597 9.26686 41.4562 9.26686C36.9325 9.26686 34.6347 9.87824 32.4125 10.4694C30.2027 11.0575 28.1152 11.6129 23.8216 11.6129C19.5282 11.6129 17.4408 11.0575 15.2309 10.4694C13.1577 9.91789 11.0182 9.34897 7.06742 9.27507V7.91554C8.1351 7.11226 8.82695 5.83496 8.82695 4.39883C8.82695 1.97326 6.8537 0 4.42812 0C2.00255 0 0.0292969 1.97326 0.0292969 4.39883C0.0292969 5.83484 0.721144 7.11214 1.78883 7.91554V21.8768H3.54836V8.70909C3.8327 8.76704 4.12689 8.79765 4.42812 8.79765C4.72936 8.79765 5.02355 8.76704 5.30789 8.70909V60H7.06742V46.2255C10.7766 46.2962 12.7251 46.8141 14.7784 47.3605C17.0004 47.9517 19.298 48.563 23.8216 48.563C28.3453 48.563 30.643 47.9517 32.8651 47.3605C33.274 47.2517 33.6969 47.1391 34.1241 47.0334L33.7013 45.3254C33.2592 45.4348 32.8288 45.5493 32.4126 45.6601ZM4.42812 7.03812C2.97276 7.03812 1.78883 5.85419 1.78883 4.39883C1.78883 2.94346 2.97276 1.75953 4.42812 1.75953C5.88349 1.75953 7.06742 2.94346 7.06742 4.39883C7.06742 5.85419 5.88349 7.03812 4.42812 7.03812Z"
+                                            fill="#E7A391" />
+                                        <path d="M13.8123 33.3138H15.5718V35.0733H13.8123V33.3138Z"
+                                            fill="#E7A391" />
+                                        <path d="M17.3313 33.3138H47.8298V35.0733H17.3313V33.3138Z"
+                                            fill="#E7A391" />
+                                        <path d="M49.5894 33.3138H51.3489V35.0733H49.5894V33.3138Z"
+                                            fill="#E7A391" />
+                                        <path d="M11.7595 14.3109H13.5191V16.0704H11.7595V14.3109Z"
+                                            fill="#E7A391" />
+                                        <path d="M11.7595 20.176H13.5191V21.9355H11.7595V20.176Z" fill="#E7A391" />
+                                        <path d="M14.692 17.2434H16.4515V19.0029H14.692V17.2434Z" fill="#E7A391" />
+                                        <path d="M8.8269 17.2434H10.5864V19.0029H8.8269V17.2434Z" fill="#E7A391" />
+                                        <path d="M51.7595 36.7155H53.5191V38.475H51.7595V36.7155Z" fill="#E7A391" />
+                                        <path d="M51.7595 42.5806H53.5191V44.3402H51.7595V42.5806Z"
+                                            fill="#E7A391" />
+                                        <path d="M54.692 39.6481H56.4515V41.4076H54.692V39.6481Z" fill="#E7A391" />
+                                        <path d="M48.8269 39.6481H50.5864V41.4076H48.8269V39.6481Z"
+                                            fill="#E7A391" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <h3>Helping Since <br /> 2012</h3>
+                                </li>
+                            </ul>
+                            <ul class="wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <li class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1101)">
+                                            <path
+                                                d="M59.4366 18.4654C59.0868 18.253 58.6514 18.2383 58.288 18.427L44.5338 25.5697C44.0568 25.8174 43.8095 26.358 43.9338 26.8809L44.2327 28.1369L34.8666 25.8583C33.1091 25.4305 31.2654 25.8002 29.8084 26.8722L29.2063 27.3153C27.0483 26.0335 24.4718 25.6448 22.0105 26.2542L15.8523 27.7788L16.0659 26.8809C16.1904 26.3579 15.943 25.8173 15.4659 25.5697L1.71199 18.427C1.34859 18.2383 0.913359 18.2529 0.563438 18.4654C0.213633 18.6779 0 19.0576 0 19.4669V40.5347C0 41.0456 0.330938 41.4976 0.817969 41.6518L10.5268 44.7269C10.6424 44.7635 10.7617 44.7817 10.8806 44.7817C11.081 44.7817 11.2802 44.7302 11.4581 44.6295C11.7415 44.4691 11.9454 44.1979 12.0207 43.8811L12.1799 43.2121L13.107 43.6524C12.5854 45.0133 12.8711 46.6154 13.9664 47.7108C14.6888 48.4331 15.6318 48.8028 16.5804 48.8218C16.5995 49.7706 16.9691 50.7135 17.6914 51.4358C18.4138 52.1581 19.3568 52.5279 20.3054 52.5469C20.3245 53.4956 20.6941 54.4385 21.4165 55.1608C22.1388 55.8832 23.0818 56.2529 24.0305 56.2719C24.0496 57.2206 24.4192 58.1635 25.1415 58.8859C25.8836 59.6278 26.8581 59.9988 27.8327 59.9988C28.8074 59.9988 29.782 59.6278 30.5239 58.8859L32.2897 57.1201C32.7769 56.6329 33.103 56.0451 33.2704 55.4232C33.6443 55.5412 34.0327 55.6012 34.4214 55.6012C35.396 55.6012 36.3707 55.2302 37.1126 54.4883C37.8349 53.766 38.2045 52.8231 38.2236 51.8743C39.1724 51.8552 40.1153 51.4855 40.8376 50.7631C41.5595 50.0413 41.9291 49.099 41.9487 48.1508C42.9363 48.1312 43.8621 47.7385 44.5628 47.038C45.2816 46.3192 45.6775 45.3634 45.6775 44.3468C45.6775 44.3273 45.6763 44.3081 45.6761 44.2887L47.8247 43.2335L47.9787 43.8807C48.0541 44.1976 48.2579 44.4688 48.5413 44.6292C48.7192 44.73 48.9183 44.7813 49.1188 44.7813C49.2376 44.7813 49.357 44.7633 49.4726 44.7266L59.1814 41.6515C59.6685 41.4972 59.9994 41.0453 59.9994 40.5343V19.4669C60 19.0576 59.7864 18.6779 59.4366 18.4654ZM2.34375 39.6766V21.396L13.5742 27.2281L10.0325 42.1119L2.34375 39.6766ZM15.6238 43.9856L17.3896 42.2198C17.6746 41.9347 18.049 41.7922 18.4235 41.7922C18.7979 41.7922 19.1723 41.9347 19.4573 42.2198C19.7334 42.4959 19.8857 42.8632 19.8857 43.2537C19.8857 43.6442 19.7336 44.0114 19.4573 44.2876L17.6916 46.0534C17.1214 46.6236 16.1938 46.6235 15.6238 46.0534C15.0537 45.4834 15.0537 44.5557 15.6238 43.9856ZM19.3489 47.7108L21.1147 45.945C21.3998 45.6599 21.7743 45.5175 22.1487 45.5175C22.5231 45.5175 22.8976 45.66 23.1826 45.945C23.7527 46.5151 23.7527 47.4426 23.1826 48.0128L21.4167 49.7787C20.8467 50.3488 19.9191 50.3489 19.3489 49.7787C18.7788 49.2085 18.7788 48.2809 19.3489 47.7108ZM23.074 51.4359L24.8399 49.67C25.1249 49.3849 25.4993 49.2424 25.8738 49.2424C26.2482 49.2424 26.6227 49.3849 26.9077 49.67C27.4778 50.2401 27.4778 51.1677 26.9077 51.7378L25.1418 53.5037C24.5718 54.0738 23.6441 54.0739 23.074 53.5037C22.5039 52.9336 22.5039 52.006 23.074 51.4359ZM30.6328 55.4629L28.867 57.2287C28.297 57.7988 27.3693 57.7988 26.7991 57.2287C26.229 56.6586 26.229 55.7311 26.7991 55.161L28.565 53.3951C28.8411 53.1188 29.2084 52.9667 29.5989 52.9667C29.9895 52.9667 30.3566 53.1188 30.6328 53.3951C31.2029 53.9653 31.2029 54.8929 30.6328 55.4629ZM42.9059 45.3811C42.6298 45.6572 42.2625 45.8093 41.872 45.8093C41.4817 45.8093 41.1147 45.6573 40.8384 45.3813C40.8383 45.3812 40.8382 45.3811 40.8381 45.381L34.5131 39.056C34.0555 38.5984 33.3135 38.5984 32.8557 39.056C32.3981 39.5136 32.3981 40.2556 32.8557 40.7134L39.1807 47.0383C39.7508 47.6085 39.7508 48.5361 39.1807 49.1062C38.6107 49.6765 37.6829 49.6763 37.1129 49.1062L30.788 42.7813C30.3304 42.3236 29.5883 42.3236 29.1306 42.7813C28.6729 43.2389 28.673 43.9809 29.1306 44.4387L35.4555 50.7636C35.7318 51.0397 35.8839 51.407 35.8839 51.7976C35.8839 52.1881 35.7318 52.5553 35.4557 52.8314C34.8855 53.4015 33.9579 53.4014 33.3878 52.8314C33.3878 52.8314 28.6399 48.0878 28.5649 48.0128C27.8426 47.2904 26.8996 46.9208 25.9509 46.9018C25.9318 45.9531 25.5622 45.0101 24.8399 44.2877C24.118 43.5658 23.1758 43.1962 22.2277 43.1768C22.2081 42.1891 21.8154 41.2632 21.1147 40.5627C19.6308 39.0788 17.2162 39.0788 15.7323 40.5627L14.5511 41.7439L12.7346 40.8811L15.2419 30.3447L22.5738 28.5295C24.0953 28.1529 25.6744 28.2825 27.0915 28.8717L24.9925 30.4161C23.2211 31.7194 22.7694 34.1866 23.9643 36.033C24.7474 37.2432 26.0897 37.9324 27.4726 37.9324C27.9715 37.9324 28.4759 37.8426 28.9609 37.6554L35.2109 35.2415C35.2109 35.2415 42.8993 43.3069 42.9059 43.3135C43.4761 43.8833 43.4761 44.8108 42.9059 45.3811ZM44.9097 42.0545C44.8071 41.9191 36.3672 33.0574 36.3672 33.0574C36.0302 32.7041 35.5255 32.6075 35.0967 32.7729L28.1164 35.4686C27.3164 35.7777 26.3978 35.4793 25.9318 34.7594C25.4094 33.9521 25.6069 32.8734 26.3814 32.3036L31.1975 28.7601C32.095 28.1 33.2304 27.8723 34.3127 28.1356L44.797 30.6863C44.8119 30.69 44.8267 30.6919 44.8416 30.6948L47.269 40.896L44.9097 42.0545ZM57.6563 39.6766L49.9675 42.1119L46.4257 27.2281L57.6563 21.396V39.6766Z"
+                                                fill="#E7A391" />
+                                            <path
+                                                d="M9.23681 19.4617H19.4063V20.0245C19.4063 20.6717 19.931 21.1964 20.5782 21.1964H24.7265C25.3738 21.1964 25.8984 20.6717 25.8984 20.0245C25.8984 19.3773 25.3738 18.8526 24.7265 18.8526H21.7502V18.6341C21.7502 14.8512 24.8279 11.7736 28.6107 11.7736H28.8281V13.3741C28.8281 14.0213 29.3527 14.546 30 14.546C30.6472 14.546 31.1719 14.0213 31.1719 13.3741V11.7736H31.3892C35.1722 11.7736 38.2497 14.8512 38.2497 18.6341V18.8526H35.2734C34.6262 18.8526 34.1015 19.3773 34.1015 20.0245C34.1015 20.6717 34.6262 21.1964 35.2734 21.1964H39.4216C40.0688 21.1964 40.5935 20.6717 40.5935 20.0245V19.4617H50.763C51.4102 19.4617 51.9349 18.937 51.9349 18.2898V17.0273C51.9349 13.2518 49.4499 10.0466 46.0301 8.95896C46.6011 8.1772 46.9392 7.2151 46.9392 6.17506V4.73178C46.9392 2.12318 44.8169 0.000915527 42.2083 0.000915527C39.5997 0.000915527 37.4774 2.12318 37.4774 4.73178V6.17494C37.4774 7.21404 37.8149 8.17533 38.385 8.95662C37.3785 9.2749 36.4381 9.78045 35.6079 10.4577C35.1009 10.1951 34.5671 9.97791 34.011 9.81232C34.6869 8.94806 35.0914 7.86162 35.0914 6.68189V5.09248C35.0914 2.2849 32.8073 0.000915527 29.9999 0.000915527C27.1924 0.000915527 24.9083 2.28502 24.9083 5.09248V6.68189C24.9083 7.86162 25.3127 8.94806 25.9888 9.81232C25.4326 9.97791 24.8988 10.1951 24.3919 10.4577C23.5616 9.78045 22.6213 9.2749 21.6147 8.95662C22.1849 8.17533 22.5224 7.21392 22.5224 6.17494V4.73178C22.5224 2.12318 20.4001 0.000915527 17.7914 0.000915527C15.1827 0.000915527 13.0605 2.12318 13.0605 4.73178V6.17494C13.0605 7.21498 13.3986 8.17709 13.9697 8.95885C10.5498 10.0466 8.06482 13.2518 8.06482 17.0272V18.2897C8.06494 18.9369 8.58958 19.4617 9.23681 19.4617ZM39.8212 4.73178C39.8212 3.41552 40.8921 2.34467 42.2085 2.34467C43.5247 2.34467 44.5956 3.41552 44.5956 4.73178V6.17494C44.5956 7.49119 43.5247 8.56217 42.2085 8.56217C40.8922 8.56217 39.8212 7.49131 39.8212 6.17494V4.73178ZM40.947 10.9058H41.0366V11.9878C41.0366 12.635 41.5612 13.1597 42.2085 13.1597C42.8557 13.1597 43.3803 12.635 43.3803 11.9878V10.9058H43.4699C46.8452 10.9058 49.5913 13.6519 49.5913 17.0272V17.1178H40.4665C40.1243 15.0628 39.0999 13.2362 37.6335 11.8795C38.6127 11.2466 39.7534 10.9058 40.947 10.9058ZM27.2522 5.09248C27.2522 3.57736 28.4849 2.34467 30 2.34467C31.5151 2.34467 32.7478 3.57736 32.7478 5.09248V6.68189C32.7478 8.19701 31.5151 9.42971 30 9.42971C28.4849 9.42971 27.2522 8.19701 27.2522 6.68189V5.09248ZM15.4044 4.73178C15.4044 3.41552 16.4752 2.34467 17.7915 2.34467C19.1077 2.34467 20.1787 3.41552 20.1787 4.73178V6.17494C20.1787 7.49119 19.1079 8.56217 17.7915 8.56217C16.4752 8.56217 15.4044 7.49131 15.4044 6.17494V4.73178ZM10.4087 17.0272C10.4087 13.6519 13.1547 10.9058 16.5301 10.9058H16.6196V11.9878C16.6196 12.635 17.1443 13.1597 17.7915 13.1597C18.4387 13.1597 18.9634 12.635 18.9634 11.9878V10.9058H19.0529C20.2466 10.9058 21.3873 11.2466 22.3665 11.8796C20.9 13.2363 19.8757 15.0629 19.5335 17.1179H10.4087V17.0272Z"
+                                                fill="#E7A391" />
+                                            <path
+                                                d="M30 21.1963C30.6472 21.1963 31.1719 20.6716 31.1719 20.0244C31.1719 19.3772 30.6472 18.8525 30 18.8525C29.3528 18.8525 28.8281 19.3772 28.8281 20.0244C28.8281 20.6716 29.3528 21.1963 30 21.1963Z"
+                                                fill="#E7A391" />
+                                        </g>
+                                        <defs>
+                                            <clipPath>
+                                                <rect width="60" height="60" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <h3>Trusted by <br /> Thousands</h3>
+                                </li>
+                            </ul>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="col-lg-5 image-column">
+                    <div class="inner-column wow fadeInLeft " data-wow-delay="200ms" data-wow-duration="1500ms" style="margin-top: 25px;">
+                        <img data-tilt data-tilt-max="3" src="images/about/about-six-image2.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offset-md-2 col-md-9 mt-30 g-4">
+            <h2  style="font-size: 45px;" class="text-center mt-3">Our Promise to You</h2>
+            <p class="text-center">At The Healtheon Spa, we are committed to providing more than just treatments — we promise a moment of escape, a breath of calm, and a touch of care that lingers long after you leave.</p>
+        </div>
+    </section>
+    <!-- End Video Section -->
+ 
+
+  <!-- Footer area start here -->
+    <footer class="footer-two-area">
+        <div class="footer__shape">
+            <img src="images/shape/footer-shape-left.png" alt="shape">
+        </div>
+        <div class="container">
+           
+            <div class="row g-5">
+                <div class="col-md-6 col-xl-4">
+                    <div class="footer__item">
+                        <div class="footer-about">
+                            <div>
+                                 <h3 class="title">Join Our Community</h3>
+                                <p class="text">Stay updated on offers, wellness tips, and behind-the-scenes moments
+</p>
+                                <div class="socials">
+                                    
+                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                                  
+                                </div>
+
+                            </div>
+                            <p class="copyright-text">&copy; 2025 <a href="index.html">HEALTHEON</a>, All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-6 col-xl-4">
+                    <div class="footer__item">
+                        <h3 class="title">Contact</h3>
+                        <ul class="links">
+                            <li><a href="#0">The Healtheon SPA, <br>H.NO.1-100/301/21/A,<br> Nallagandla RD</a></li>
+                            <li><a href="#0">+91-8143446777</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3">
+                    <div class="footer__item" >
+                        <h3 class="title">Open Hours</h3>
+                        <ul class="time-table" style="width: 250px;">
+                            <li>Monday to Friday : <span>09:00-20:00</span> </li>
+                            <li>Saturday: <span>09:00-18:00</span></li>
+                            <li>Sunday: <span>09:00-18:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end here -->
+
+
+    <!-- Jquery 3.7.0 Min Js -->
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Mean menu Js -->
+    <script src="js/meanmenu.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Datetimepicker min Js -->
+    <script src="js/jquery.datetimepicker.full.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="js/wow.min.js"></script>
+    <!-- Fancybox Js --><!-- Nice select min Js -->
+    <script src="js/nice-select.min.js"></script>
+    <!-- Parallax Js -->
+    <script src="js/parallax.js"></script>
+    <!-- Splitting Js -->
+    <script src="js/splitting.js"></script>
+    <!-- Vanilla Tilt Js -->
+    <script src="js/vanilla-tilt.js"></script>
+    <!-- Waypoints Js -->
+    <script src="js/jquery.waypoints.js"></script>
+    <!-- Gsap -->
+    <script src="js/gsap/gsap.min.js"></script>
+    <script src="js/gsap/ScrollTrigger.min.js"></script>
+    <script src="js/gsap/ScrollSmoother.min.js"></script>
+    <!-- Script Js -->
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
